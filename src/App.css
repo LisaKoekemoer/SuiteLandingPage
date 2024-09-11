@@ -1,38 +1,441 @@
-.App {
-  text-align: center;
-}
+@media screen and (max-width: 1440px) and (min-width: 481px) {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  body {
+    font-family: "Epilogue", sans-serif;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  header {
+    width: 1108.85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  header img {
+    width: 78.41px;
+    height: 24.8px;
+  }
+
+  header button {
+    width: 219px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border: 2px solid #172339;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #172339;
+    cursor: pointer;
+  }
+
+  header button:hover {
+    background-color: #172339;
+    color: #FAF8F6;
+  }
+
+  .section1 {
+    width: 1110px;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .section1 .suite-info {
+    width: 650px;
+    height: 405px;
+  }
+
+  .suite-info h1 {
+    width: 650px;
+    font-size: 72px;
+    font-weight: 400;
+    color: #172339;
+    margin-top: 120px;
+  }
+
+  .suite-info h1 span {
+    font-weight: bold;
+  }
+
+  .suite-info p {
+    font-size: 18px;
+    color: #49566D;
+    width: 350px;
+  }
+
+  .suite-info button {
+    width: 256px;
+    height: 61px;
+    border: none;
+    border-radius: 5px;
+    background-color: #172339;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .suite-info button:hover {
+    background: rgb(160, 96, 255);
+    background: linear-gradient(180deg, rgba(160, 96, 255, 1) 0%, rgba(203, 48, 227, 1) 49%, rgba(255, 168, 78, 1) 100%);
+    color: #FAF8F6;
+  }
+
+
+
+  .section1-img img {
+    width: 350px;
+    height: 600px;
+    position: relative;
+    left: -170px;
+    z-index: -1;
+  }
+
+  .curve1 {
+    width: 287px;
+    height: 36px;
+    position: absolute;
+    top: 250px;
+    right: 680px;
+  }
+
+  .suite-reach {
+    width: 190px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: -90px;
+  }
+
+  .suite-reach div {
+    width: 190px;
+    height: 83px;
+    margin-bottom: 30px;
+  }
+
+  .suite-reach h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #172339;
+
+  }
+
+  .suite-reach p {
+    font-size: 16px;
+    color: #49566D;
+    margin-top: -40px;
+    text-transform: uppercase;
+  }
+
+  .section2 {
+    width: 1109px;
+    height: 545px;
+    display: flex;
+    background-color: #172339;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 15px;
+  }
+
+  .img-Jeremy img {
+    width: 359.81px;
+    height: 589.56px;
+    position: relative;
+    top: -45px;
+    left: 100px;
+  }
+
+  .curve2 {
+    width: 64.05px;
+    height: 52px;
+    margin-left: 150px;
+    margin-top: 120px;
+  }
+
+  .testimonial {
+    width: 350px;
+    height: 369px;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+
+  .testimonial h3 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #FAF8F6;
+  }
+
+  .testimonial span {
+    font-weight: bold;
+  }
+
+  .testimonial p {
+    font-size: 20px;
+    color: #F3EDE7;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .Jeremy-details {
+    margin-top: 70px;
+  }
+
+  .Jeremy-details h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FAF8F6;
+    text-transform: uppercase;
+  }
+
+  .Jeremy-details p {
+    font-size: 16px;
+    color: #F3EDE7;
+    text-transform: uppercase;
+    margin-top: -20px;
+  }
+
+  footer {
+    width: 1109px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer img {
+    width: 81px;
+    height: 32px;
+  }
+
+  footer p {
+    font-size: 15px;
+    color: #49566D;
+  }
+
+  .socials {
+    width: 116px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #myPath:hover {
+    fill: #49566D;
+    cursor: pointer;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 480px) {
+  body {
+    font-family: "Epilogue", sans-serif;
+    background-color: #FAF9F6;
   }
-  to {
-    transform: rotate(360deg);
+
+  header {
+    width: 343px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
+
+  header img {
+    width: 81px;
+    height: 32px;
+  }
+
+  header button {
+    width: 182px;
+    height: 48px;
+    border: 2px solid #172339;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    color: #172339;
+    border-radius: 5px;
+  }
+
+  .section1 {
+    margin-top: 50px;
+    margin: auto;
+  }
+
+  .curve1 {
+    width: 151.47px;
+    height: 19px;
+    margin-left: 157px;
+    margin-bottom: -20px;
+  }
+
+  .suite-info {
+    width: 343.5px;
+    height: 325.32px;
+    margin: auto;
+  }
+
+  .suite-info h1 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #172339;
+  }
+
+  .suite-info span {
+    font-weight: bold;
+  }
+
+  .suite-info p {
+    font-size: 16px;
+    color: #49566D;
+    width: 343px;
+  }
+
+  .suite-info button {
+    width: 256px;
+    height: 61px;
+    border: none;
+    border-radius: 5px;
+    background-color: #172339;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FAF8F6;
+    margin-top: 30px;
+  }
+
+  .section1-img img {
+    width: 343px;
+    height: 240px;
+    margin-left: 5px;
+  }
+
+  .suite-reach {
+    height: 313px;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .suite-reach h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #172339;
+  }
+
+  .suite-reach p {
+    font-size: 16px;
+    color: #49566D;
+    text-transform: uppercase;
+    margin-top: -45px;
+  }
+
+  .section2 {
+    height: 748px;
+    background-color: #172339;
+    border-radius: 25px;
+    margin-top: 250px;
+  }
+
+  .img-Jeremy img {
+    width: 252px;
+    height: 402px;
+    position: relative;
+    top: -180px;
+    left: 50px;
+  }
+
+  .curve2 {
+    position: relative;
+    top: -140px;
+    left: 120px;
+  }
+
+  .testimonial h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #FAF8F6;
+    margin: auto;
+    margin-top: -70px;
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  .testimonial span {
+    font-weight: bold;
+  }
+
+  .testimonial p{
+    width: 343px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F3EDE7;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .Jeremy-details {
+    height: 58px;
+    text-align: center;
+  }
+
+  .Jeremy-details h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FAF8F6;
+    text-transform: uppercase;
+  }
+
+  .Jeremy-details p{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #F3EDE7;
+    margin-top: -15px;
+  }
+
+  footer {
+    width: 125px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  footer img {
+    width: 81px;
+    height: 32px;
+    margin-left: 20px;
+  }
+
+  footer p {
+    font-size: 15px;
+    color: #49566D;
+  }
+
+  .socials {
+    width: 116px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
 }
