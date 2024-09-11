@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SuiteLandingPage/static/css/main.d5dd773b.css",
+    "main.js": "/SuiteLandingPage/static/js/main.0aac42a8.js",
+    "static/js/453.dfd4092b.chunk.js": "/SuiteLandingPage/static/js/453.dfd4092b.chunk.js",
+    "static/media/image-jeremy-large.png": "/SuiteLandingPage/static/media/image-jeremy-large.7568e3e8e870bb0a4554.png",
+    "static/media/image-hero-portrait.png": "/SuiteLandingPage/static/media/image-hero-portrait.4dad9378090c290deea2.png",
+    "static/media/logo.svg": "/SuiteLandingPage/static/media/logo.4dfe9487ba72fe85d2bff53029645830.svg",
+    "index.html": "/SuiteLandingPage/index.html",
+    "static/media/pattern-curved-line-2.svg": "/SuiteLandingPage/static/media/pattern-curved-line-2.b3e7a600581015c6814002a2b1b5992d.svg",
+    "static/media/pattern-curved-line-1.svg": "/SuiteLandingPage/static/media/pattern-curved-line-1.737baf08aa1b342f22c34fc8ba6387cb.svg",
+    "main.d5dd773b.css.map": "/SuiteLandingPage/static/css/main.d5dd773b.css.map",
+    "main.0aac42a8.js.map": "/SuiteLandingPage/static/js/main.0aac42a8.js.map",
+    "453.dfd4092b.chunk.js.map": "/SuiteLandingPage/static/js/453.dfd4092b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5dd773b.css",
+    "static/js/main.0aac42a8.js"
+  ]
+}
